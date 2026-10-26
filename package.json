@@ -1,0 +1,14 @@
+{
+  "name": "data-value-calculator",
+  "version": "1.0.0",
+  "description": "Open reference calculator: estimate what a company's data could license for to AI labs. An estimate, not an offer.",
+  "type": "module",
+  "main": "src/estimate.js",
+  "bin": { "data-value-calculator": "bin/cli.js" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["ai-training-data", "data-licensing", "data-valuation", "calculator", "de-identification"],
+  "homepage": "https://aitrainingdatabroker.com/tools/data-value-calculator/",
+  "repository": { "type": "git", "url": "git+https://github.com/aitrainingdatabroker/data-value-calculator.git" },
+  "author": "AI Training Data Broker (https://aitrainingdatabroker.com)",
+  "license": "MIT"
+}
